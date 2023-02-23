@@ -70,33 +70,16 @@ body{
     .section__Ul{
       color: $green;
       margin-top: 330px;
-      ul{
-
-        h1{
-          font-weight: 800;
-          font-size: 32px;
-        }
-        li{
-          list-style: none;
-          line-height: 20px;
-        }
-        .ul__li{
-          margin-top: 10px;
-          color: $green;
-          .ul__li--span{
-            color: $blue;
-            margin-left: 6px;
-          }
-        }
-        .ul__li--li{
-          display: flex;
-          justify-content: space-between;
-          color: $green;
-          .ul__li--span{
-            color: $blue;
-          }
-          .ul__li--span--color{
-            color: $pink;
+      table{
+        tr{
+          td{
+            padding-right: 8px;
+            .td__span{
+              color: $blue;
+            }
+            .td__span--color{
+              color: $pink;
+            }
           }
         }
       }
@@ -140,6 +123,7 @@ body{
       font-size: 36px;
       font-weight: 700;
       width: 300px;
+      margin-top: 10px;
     }
     .section__footer--right{
       position: absolute;

@@ -68,31 +68,13 @@ body section .section__Ul {
   color: #43A72A;
   margin-top: 330px;
 }
-body section .section__Ul ul h1 {
-  font-weight: 800;
-  font-size: 32px;
+body section .section__Ul table tr td {
+  padding-right: 8px;
 }
-body section .section__Ul ul li {
-  list-style: none;
-  line-height: 20px;
-}
-body section .section__Ul ul .ul__li {
-  margin-top: 10px;
-  color: #43A72A;
-}
-body section .section__Ul ul .ul__li .ul__li--span {
-  color: #2997FF;
-  margin-left: 6px;
-}
-body section .section__Ul ul .ul__li--li {
-  display: flex;
-  justify-content: space-between;
-  color: #43A72A;
-}
-body section .section__Ul ul .ul__li--li .ul__li--span {
+body section .section__Ul table tr td .td__span {
   color: #2997FF;
 }
-body section .section__Ul ul .ul__li--li .ul__li--span--color {
+body section .section__Ul table tr td .td__span--color {
   color: #FA1AE3;
 }
 body section .section__img {
@@ -132,6 +114,7 @@ body .section__footer .section__footer--left {
   font-size: 36px;
   font-weight: 700;
   width: 300px;
+  margin-top: 10px;
 }
 body .section__footer .section__footer--right {
   position: absolute;
