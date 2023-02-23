@@ -64,17 +64,17 @@ body header .headerMenu_change .headerScroll .headerScroll__home a:hover, body h
 body section {
   display: flex;
 }
-body section .section__Ul {
+body section .section__table {
   color: #43A72A;
   margin-top: 330px;
 }
-body section .section__Ul table tr td {
+body section .section__table table tr td {
   padding-right: 8px;
 }
-body section .section__Ul table tr td .td__span {
+body section .section__table table tr td .td__span {
   color: #2997FF;
 }
-body section .section__Ul table tr td .td__span--color {
+body section .section__table table tr td .td__span--color {
   color: #FA1AE3;
 }
 body section .section__img {
@@ -124,4 +124,71 @@ body .section__footer .section__footer--right {
   font-weight: 400;
   width: 500px;
   text-align: right;
+}
+
+@media (max-width: 550px) {
+  body header {
+    display: flex;
+    justify-content: center;
+  }
+  body header .headerLogo {
+    margin-right: 150px;
+  }
+  body header .headerMenu_change {
+    top: 0;
+    left: 0;
+  }
+  body header .headerMenu_change .headerScroll {
+    right: -120px;
+  }
+  body section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body section .section__table {
+    margin-top: 0;
+    order: 3;
+  }
+  body section .section__img {
+    margin-top: 0;
+    margin-left: 0;
+    margin-top: 10%;
+    order: 2;
+  }
+  body section .link {
+    display: flex;
+    flex-direction: row;
+    order: 1;
+    margin-top: 0;
+  }
+  body section .link .link--icon {
+    justify-content: center;
+    align-items: center;
+  }
+  body section .link .link__fb {
+    top: 0;
+    right: 273px;
+    transform: translate(50%, 20%);
+  }
+  body section .link .link__in {
+    right: 0px;
+    transform: translate(50%, 20%);
+    top: 0;
+  }
+  body section .link .link__tw {
+    top: 0;
+    right: -305px;
+    z-index: -1;
+  }
+  body .section__footer .section__footer--left {
+    top: -228px;
+    margin-top: 0;
+    left: 230px;
+  }
+  body .section__footer .section__footer--right {
+    width: 300px;
+    top: -230px;
+    right: 200px;
+  }
 }/*# sourceMappingURL=style.css.map */

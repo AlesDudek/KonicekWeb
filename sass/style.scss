@@ -67,7 +67,7 @@ body{
   }
   section{
     display: flex;
-    .section__Ul{
+    .section__table{
       color: $green;
       margin-top: 330px;
       table{
@@ -133,6 +133,76 @@ body{
       font-weight: 400;
       width: 500px;
       text-align: right;
+    }
+  }
+}
+@media (max-width:550px) {
+  body{
+    header{
+      display: flex;
+      justify-content: center;
+      .headerLogo{
+        margin-right: 150px;
+      }
+      .headerMenu_change{
+        top: 0;
+        left: 0;
+        .headerScroll{
+          right: -120px;
+        }
+      }
+    }
+    section{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .section__table{
+        margin-top: 0;
+        order: 3;
+      }
+      .section__img{
+        margin-top: 0;
+        margin-left: 0;
+        margin-top: 10%;
+        order: 2;
+      }
+      .link{
+        display: flex;
+        flex-direction: row;
+        order: 1;
+        margin-top: 0;
+        .link--icon{
+          justify-content: center;
+          align-items: center;
+        }
+        .link__fb{
+          top: 0;
+          right: 273px;
+          transform: translate(50%, 20%);
+        }
+        .link__in{
+          right: 0px;
+          transform: translate(50%, 20%);
+          top: 0;
+        }
+        .link__tw{
+          top: 0;
+          right: -305px;
+          z-index: -1;
+        }
+      }
+    }
+    .section__footer{
+      .section__footer--left{
+        top: -228px;
+        margin-top: 0;
+        left: 230px;
+      }
+      .section__footer--right{
+        width: 300px;
+        top: -230px;
+        right: 200px;
+      }
     }
   }
 }
