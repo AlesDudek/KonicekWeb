@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: #262626;
+}
+body header, body section {
+  width: 1158px;
+  margin: 0 auto;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .headerLogo, body header .headerRight {
+  margin-top: 64px;
+}
+body header .headerRight {
+  position: relative;
+}
+body header .headerMenu {
+  display: block;
+}
+body header .headerMenu_change {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+body header .headerMenu_change .headerScroll {
+  position: absolute;
+  border: 6px solid #9F9F9F;
+  border-radius: 5px;
+  padding: 5px;
+  right: 0;
+  background: #262626;
+}
+body header .headerMenu_change .headerScroll .headerScroll__home, body header .headerMenu_change .headerScroll .headerScroll__Servis, body header .headerMenu_change .headerScroll .headerScroll__Support, body header .headerMenu_change .headerScroll .headerScroll__Contakt {
+  display: flex;
+  margin: 10px;
+  transition: 0.2s all ease-in-out;
+}
+body header .headerMenu_change .headerScroll .headerScroll__home img, body header .headerMenu_change .headerScroll .headerScroll__Servis img, body header .headerMenu_change .headerScroll .headerScroll__Support img, body header .headerMenu_change .headerScroll .headerScroll__Contakt img {
+  margin-right: 6px;
+}
+body header .headerMenu_change .headerScroll .headerScroll__home a, body header .headerMenu_change .headerScroll .headerScroll__Servis a, body header .headerMenu_change .headerScroll .headerScroll__Support a, body header .headerMenu_change .headerScroll .headerScroll__Contakt a {
+  text-decoration: none;
+  color: #F0F8FF;
+  padding: 5px 10px;
+}
+body header .headerMenu_change .headerScroll .headerScroll__home a:hover, body header .headerMenu_change .headerScroll .headerScroll__Servis a:hover, body header .headerMenu_change .headerScroll .headerScroll__Support a:hover, body header .headerMenu_change .headerScroll .headerScroll__Contakt a:hover {
+  background: #1E90FF;
+  border-radius: 5px;
+  color: #F0F8FF;
+  padding: 5px 10px;
+}
+body section {
+  display: flex;
+}
+body section .section__Ul {
+  color: #43A72A;
+  margin-top: 330px;
+}
+body section .section__Ul ul h1 {
+  font-weight: 800;
+  font-size: 32px;
+}
+body section .section__Ul ul li {
+  list-style: none;
+  line-height: 20px;
+}
+body section .section__Ul ul .ul__li {
+  margin-top: 10px;
+  color: #43A72A;
+}
+body section .section__Ul ul .ul__li .ul__li--span {
+  color: #2997FF;
+  margin-left: 6px;
+}
+body section .section__Ul ul .ul__li--li {
+  display: flex;
+  justify-content: space-between;
+  color: #43A72A;
+}
+body section .section__Ul ul .ul__li--li .ul__li--span {
+  color: #2997FF;
+}
+body section .section__Ul ul .ul__li--li .ul__li--span--color {
+  color: #FA1AE3;
+}
+body section .section__img {
+  margin-left: 99px;
+  margin-top: 91px;
+}
+body section .link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 91px;
+  position: relative;
+}
+body section .link .link--icon {
+  position: absolute;
+  right: -310px;
+}
+body section .link .link__fb {
+  top: 0;
+  z-index: -1;
+}
+body section .link .link__in {
+  top: 120px;
+}
+body section .link .link__tw {
+  top: 240px;
+}
+body .section__footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  color: #F0F8FF;
+}
+body .section__footer .section__footer--left {
+  position: absolute;
+  top: -50px;
+  font-size: 36px;
+  font-weight: 700;
+  width: 300px;
+}
+body .section__footer .section__footer--right {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  font-size: 36px;
+  font-weight: 400;
+  width: 500px;
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */
