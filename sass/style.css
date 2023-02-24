@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@ body {
   height: 100vh;
   background: #262626;
 }
-body header, body section {
+body header, body section, body footer {
   width: 1158px;
   margin: 0 auto;
 }
@@ -55,11 +56,21 @@ body header .headerMenu_change .headerScroll .headerScroll__home a, body header 
   color: #F0F8FF;
   padding: 5px 10px;
 }
-body header .headerMenu_change .headerScroll .headerScroll__home a:hover, body header .headerMenu_change .headerScroll .headerScroll__Servis a:hover, body header .headerMenu_change .headerScroll .headerScroll__Support a:hover, body header .headerMenu_change .headerScroll .headerScroll__Contakt a:hover {
+body header .headerMenu_change .headerScroll .headerScroll__home:hover {
   background: #1E90FF;
   border-radius: 5px;
-  color: #F0F8FF;
-  padding: 5px 10px;
+}
+body header .headerMenu_change .headerScroll .headerScroll__Servis:hover {
+  background: #1E90FF;
+  border-radius: 5px;
+}
+body header .headerMenu_change .headerScroll .headerScroll__Support:hover {
+  background: #1E90FF;
+  border-radius: 5px;
+}
+body header .headerMenu_change .headerScroll .headerScroll__Contakt:hover {
+  background: #1E90FF;
+  border-radius: 5px;
 }
 body section {
   display: flex;
@@ -124,6 +135,136 @@ body .section__footer .section__footer--right {
   font-weight: 400;
   width: 500px;
   text-align: right;
+}
+body .modal-wrapper {
+  font-family: "Shantell Sans", cursive;
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+body .modal-wrapper .modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 500px;
+  position: absolute;
+  left: 730px;
+  top: 150px;
+  padding: 20px;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  border: 4px solid rgb(50, 43, 43);
+}
+body .modal-wrapper .modal .modal-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+body .modal-wrapper .modal h2 {
+  font-size: 32px;
+  margin-top: 20px;
+}
+body .modal-wrapper .modal ul li {
+  font-size: 32px;
+  font-weight: 500;
+  color: #FA1AE3;
+  list-style: none;
+}
+body .modal-wrapper .modal ul li a {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 700;
+  color: #2997FF;
+}
+body .modal-wrapper-support {
+  font-family: "Shantell Sans", cursive;
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+body .modal-wrapper-support .modal__support {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: white;
+  color: black;
+  max-width: 500px;
+  left: 760px;
+  top: 100px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 4px solid rgb(50, 43, 43);
+  padding: 10px;
+}
+body .modal-wrapper-support .modal__support .modal-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+body .modal-wrapper-support .modal__support h2 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+body .modal-wrapper-support .modal__support ul {
+  margin-top: 30px;
+}
+body .modal-wrapper-support .modal__support ul li {
+  margin-top: 10px;
+}
+body .modal-wrapper-servis {
+  font-family: "Shantell Sans", cursive;
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+body .modal-wrapper-servis .modal__servis {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: white;
+  color: black;
+  max-width: 500px;
+  left: 640px;
+  top: 100px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 4px solid rgb(50, 43, 43);
+  padding: 10px;
+}
+body .modal-wrapper-servis .modal__servis h2 {
+  writing-mode: vertical-lr;
+  margin-right: 20px;
+  transform: rotate(180deg);
+}
+body .modal-wrapper-servis .modal__servis .modal-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+body .modal-wrapper-servis .modal__servis ul li {
+  list-style: none;
 }
 
 @media (max-width: 550px) {
