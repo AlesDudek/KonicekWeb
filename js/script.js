@@ -14,7 +14,7 @@ const support = document.querySelector(".js-btn-support")
 const modalWrappSupport = document.querySelector(".modal-wrapper-support")
 const modalSupport = document.querySelector(".modal__support")
 const modalCloseSupport = document.querySelector(".js-modal-support-close")
-
+//Servis
 const servis = document.querySelector(".js-btn-servis")
 const modalWrappServis = document.querySelector(".modal-wrapper-servis")
 const modalServis = document.querySelector(".modal__servis")
